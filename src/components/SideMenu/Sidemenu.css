@@ -1,0 +1,113 @@
+.Sidemenu {
+  display: flex;
+  box-sizing: border-box;
+  width: auto;
+}
+
+.side-container {
+  width: 14rem;
+  min-height: 100vh;
+  background-color: #4f5250;
+  background-size: cover;
+  overflow-anchor: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.crm-title {
+  margin-top: 1rem;
+  margin-left: 1rem !important;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 1rem !important;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: larger;
+}
+
+.SideMenu_Item {
+  position: relative;
+  box-sizing: border-box;
+  margin: 10px 0 10px 0;
+}
+
+.SideMenu_Item:hover {
+  background-color: black;
+}
+
+.sidemenu_button {
+  color: black;
+  width: 100%;
+  font-weight: 700;
+  position: relative;
+  display: block;
+  padding: 0.75rem 1rem;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+  text-align: start;
+  cursor: pointer;
+}
+
+.sidemenu_button:hover {
+  color: white;
+}
+
+.side_menu_line {
+  border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+  margin: 0 1rem 1rem;
+  border: 0;
+  overflow: visible;
+  box-sizing: content-box;
+  height: 0;
+}
+
+@media (max-width: 768px) {
+  .side-container {
+    width: 100%;
+  }
+
+  .crm-title {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .SideMenu_Item {
+    margin: 5px 0;
+  }
+
+  .sidemenu_button {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .side-container {
+    width: 100%;
+  }
+
+  .crm-title {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .SideMenu_Item {
+    margin: 3px 0;
+  }
+
+  .sidemenu_button {
+    padding: 0.3rem 0.5rem;
+    font-size: smaller;
+  }
+}

@@ -1,0 +1,36 @@
+.service-request-status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+created {
+  background-color: #3498db;
+  color: #fff;
+}
+
+released {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+open {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+canceled {
+  background-color: #34495e;
+  color: #fff;
+}
+
+inprocess {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+completed {
+  background-color: #27ae60;
+  color: #fff;
+}

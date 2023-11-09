@@ -1,0 +1,36 @@
+.lead-status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.new {
+  background-color: #3498db;
+  color: #fff;
+}
+
+lost {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+contacted {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+canceled {
+  background-color: #34495e;
+  color: #fff;
+}
+
+qualified {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+confirmed {
+  background-color: #27ae60;
+  color: #fff;
+}

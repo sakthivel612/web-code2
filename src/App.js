@@ -8,17 +8,8 @@ import Manager from "./UserManagement/Manager";
 import Employee from "./UserManagement/Employee";
 import { Switch, Route } from "react-router-dom/cjs/react-router-dom.min";
 import Sidemenu from "./components/SideMenu/Sidemenu";
-import { useEffect } from "react";
 
 function App() {
-  useEffect(() => {
-    const fetch = fetch("https://web-code2-backend.onrender.com");
-    console.log(fetch);
-    return () => {
-      fetch.disconnect();
-    };
-  }, []);
-
   return (
     <div className="App">
       <Sidemenu></Sidemenu>
